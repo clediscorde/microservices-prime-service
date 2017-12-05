@@ -6,4 +6,4 @@ cd source-code
   ./mvnw clean package
 cd ..
 
-cp source-code/target/*.war  build-output/`basename git-repo/target/*.war .war`.war
+cp source-code/target/*.war  build-output/
